@@ -1,0 +1,15 @@
+/*------------------------------*/
+/* Dual Header Widget
+/*------------------------------*/
+.eafe-dual-header .title {
+	margin: 0;
+	padding: 0;
+}
+
+.eafe-dualheading-align-center .title {
+    text-align: center;
+}
+
+.eafe-dualheading-align-right .title {
+    text-align: right;
+}

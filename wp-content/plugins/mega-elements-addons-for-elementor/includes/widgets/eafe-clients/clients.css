@@ -1,0 +1,183 @@
+/*------------------------------*/
+/* CTA Widget
+/*------------------------------*/
+.eafe-clients {
+    overflow: hidden;
+}
+
+.eafe-clients .eafe-grid-container:not(.owl-carousel) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.eafe-clients .owl-carousel .owl-item img {
+    margin: 0 auto;
+}
+
+.eafe-clients-bwyes .eafe-client img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.eafe-clients-bwyes .eafe-client a:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.eafe-clients .eafe-grid-container:not(.owl-carousel) .eafe-client {
+    padding: 15px;
+}
+
+.eafe-clients .eafe-grid-container .eafe-client {
+    position: relative;
+    text-align: center;
+}
+
+.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-desktop-1 .eafe-client {
+    width: 100%;
+}
+
+.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-desktop-2 .eafe-client {
+    width: 50%;
+}
+
+.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-desktop-3 .eafe-client {
+    width: 33.33%;
+}
+
+.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-desktop-4 .eafe-client {
+    width: 25%;
+}
+
+.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-desktop-5 .eafe-client {
+    width: 20%;
+}
+
+.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-desktop-6 .eafe-client {
+    width: 16.66%;
+}
+
+.eafe-clients .owl-carousel .owl-nav [class*="owl-"], 
+.eafe-clients .owl-carousel .owl-nav button[class*="owl-"] {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 30px;
+    line-height: 30px;
+    min-height: auto;
+    height: 30px;
+    width: 30px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.eafe-clients.owl-dots-enabled .owl-carousel .owl-nav [class*="owl-"], 
+.eafe-clients.owl-dots-enabled .owl-carousel .owl-nav button[class*="owl-"] {
+    top: 35%;
+}
+
+.eafe-clients .owl-carousel .owl-nav .owl-next, 
+.eafe-clients .owl-carousel .owl-nav button.owl-next {
+    left: auto;
+    right: 0;
+}
+
+.eafe-clients .owl-carousel .owl-dots {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.eafe-clients .owl-carousel .owl-dots .owl-dot {
+    width: auto;
+    height: auto;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 5px !important;
+    max-height: initial;
+    min-height: auto;
+    line-height: 1;
+}
+
+.eafe-clients .owl-carousel .owl-dots .owl-dot span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: rgba(0,0,0,0.15);
+    border-radius: 100%;
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+}
+
+.eafe-clients .owl-carousel .owl-dots .owl-dot:hover span, 
+.eafe-clients .owl-carousel .owl-dots .owl-dot.active span {
+    background: rgba(0,0,0,0.5);
+    width: 10px;
+    height: 10px;
+}
+
+@media screen and (max-width: 1025px) {
+    .eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-tablet-1 .eafe-client {
+        width: 100%;
+    }
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-tablet-2 .eafe-client {	    
+		width: 50%;
+	}
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-tablet-3 .eafe-client {
+	    width: 33.33%;
+	}
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-tablet-4 .eafe-client {
+	    width: 25%;
+	}
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-tablet-5 .eafe-client {
+	    width: 20%;
+	}
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-tablet-6 .eafe-client {
+	    width: 16.66%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.eafe-clients .eafe-grid-container:not(.owl-carousel) {
+	    margin-left: -10px;
+	    margin-right: -10px;
+	}
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel) .eafe-client {
+	    padding: 10px;
+    }
+    
+    .eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-mobile-1 .eafe-client {
+        width: 100%;
+    }
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-mobile-2 .eafe-client {	    
+		width: 50%;
+	}
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-mobile-3 .eafe-client {
+	    width: 33.33%;
+	}
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-mobile-4 .eafe-client {
+	    width: 25%;
+	}
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-mobile-5 .eafe-client {
+	    width: 20%;
+	}
+
+	.eafe-clients .eafe-grid-container:not(.owl-carousel).eafe-grid-mobile-6 .eafe-client {
+	    width: 16.66%;
+	}
+}

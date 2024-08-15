@@ -1,0 +1,79 @@
+/*------------------------------*/
+/* Team Widget
+/*------------------------------*/
+.elementor-widget-eafe-team .eafe-member-body{
+    padding-top: 35px;
+}
+
+.elementor-widget-eafe-team .eafe-member-figure img {
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
+
+.elementor-widget-eafe-team .eafe-member-name{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+.elementor-widget-eafe-team .eafe-member-position{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.65);
+    display: block;
+    margin-top: 5px;
+}
+.elementor-widget-eafe-team .eafe-member-bio p {
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+.elementor-widget-eafe-team .eafe-team-member-social-profiles{
+    margin: 0;
+    padding: 25px 0 0;
+    list-style: none;
+}
+.elementor-widget-eafe-team .eafe-team-member-social-profiles .eafe-team-member-social-link{
+    display: inline-block;
+    margin: 5px;
+    /* width: 32px;
+    height: 32px; */
+    text-align: center;
+    line-height: 1.3;
+    /* border: solid 1px rgba(0,0,0,0.1);
+    -webkit-border-radius: 50%;
+    border-radius: 50%; */
+    font-size: 20px;
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+}
+
+.elementor-widget-eafe-team .eafe-team-member-social-profiles .eafe-team-member-social-link a {
+    color: inherit;
+    display: block;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+.elementor-widget-eafe-team.eafe-team-name-align-left .eafe-member-name, 
+.elementor-widget-eafe-team.eafe-team-name-align-left .eafe-member-position, 
+.elementor-widget-eafe-team.eafe-team-bio-align-left .eafe-member-bio, 
+.elementor-widget-eafe-team.eafe-team-social-align-left .eafe-team-member-social-profiles {
+    text-align: left;
+}
+
+.elementor-widget-eafe-team.eafe-team-name-align-center .eafe-member-name, 
+.elementor-widget-eafe-team.eafe-team-name-align-center .eafe-member-position, 
+.elementor-widget-eafe-team.eafe-team-bio-align-center .eafe-member-bio, 
+.elementor-widget-eafe-team.eafe-team-social-align-center .eafe-team-member-social-profiles {
+    text-align: center;
+}
+
+.elementor-widget-eafe-team.eafe-team-name-align-right .eafe-member-name, 
+.elementor-widget-eafe-team.eafe-team-name-align-right .eafe-member-position, 
+.elementor-widget-eafe-team.eafe-team-bio-align-right .eafe-member-bio, 
+.elementor-widget-eafe-team.eafe-team-social-align-right .eafe-team-member-social-profiles {
+    text-align: right;
+}

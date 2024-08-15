@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwp_travel_engine=globalThis.webpackChunkwp_travel_engine||[]).push([[1869],{1869:(e,n,t)=>{function l(){setTimeout((function(){document.querySelectorAll(".faq-content").forEach((function(e,n){0===n?(e.classList.add("show"),e.style.display="block"):e.style.display="none"}))}),1e3)}t.r(n),t.d(n,{initFaqToggle:()=>l})}}]);

@@ -1,0 +1,11 @@
+/*------------------------------*/
+/* Blossom Themes Email Newsletter
+/*------------------------------*/
+.blossomthemes-email-newsletter-wrapper h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blossomthemes-email-newsletter-wrapper .text-holder span {
+    display: block;
+}

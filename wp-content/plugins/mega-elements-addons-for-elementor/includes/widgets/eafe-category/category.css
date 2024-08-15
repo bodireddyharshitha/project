@@ -1,0 +1,105 @@
+/*------------------------------*/
+/* Category Widget
+/*------------------------------*/
+.eafe-post-grid-container:not(.col-1) .eafe-categories-wrap {
+    overflow: hidden;
+}
+
+.eafe-post-grid-container .eafe-categories-meta-wrap {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.eafe-post-grid-container:not(.col-1) .eafe-categories-meta-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1.5%;
+}
+
+.eafe-post-grid-container:not(.col-1) .eafe-categories-meta-wrap li {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.eafe-post-grid-container ul.eafe-categories-meta-wrap li {
+	margin: 0 0 40px 0;
+}
+
+.col-2 .eafe-categories-meta-wrap li {
+    width: 50%;
+}
+
+.col-3 .eafe-categories-meta-wrap li {
+    width: 33.33%;
+}
+
+.col-4 .eafe-categories-meta-wrap li {
+    width: 25%;
+}
+
+.col-5 .eafe-categories-meta-wrap li {
+    width: 20%;
+}
+
+.col-6 .eafe-categories-meta-wrap li {
+    width: 16.66%;
+}
+
+.eafe-post-grid-container .eafe-categories-meta-wrap li a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.eafe-post-grid-container .eafe-categories-meta-wrap li a svg {
+    vertical-align: top;
+}
+
+.ba-category-one .eafe-categories-meta-wrap li .title-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.7));
+    background: -moz-linear-gradient(transparent, rgba(0,0,0,0.7));
+    background: -ms-linear-gradient(transparent, rgba(0,0,0,0.7));
+    background: -o-linear-gradient(transparent, rgba(0,0,0,0.7));
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    padding: 60px 30px 25px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ba-category-two .eafe-categories-meta-wrap li .title-wrapper {
+    padding-top: 20px;
+}
+
+.eafe-categories-meta-wrap li .title-wrapper .eafe-entry-title {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.1112em;
+    display: block;
+    line-height: 1.5;
+}
+
+.ba-category-one .eafe-categories-meta-wrap li .title-wrapper .eafe-entry-title {
+	color: #fff;
+}
+
+.eafe-categories-meta-wrap li .title-wrapper .eafe-entry-meta {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.ba-category-one .eafe-categories-meta-wrap li .title-wrapper .eafe-entry-meta {
+	color: #fff;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding-top: 10px;
+}
+
+.ba-category-two .eafe-categories-meta-wrap li .eafe-entry-title, 
+.ba-category-two .eafe-categories-meta-wrap li .eafe-entry-meta {
+    color: #000;
+}

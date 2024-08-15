@@ -1,0 +1,85 @@
+/*------------------------------*/
+/* Todo Widget
+/*------------------------------*/
+.elementor-widget-eafe-checklist .eafe-icon-list-items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.elementor-widget-eafe-checklist .eafe-icon-list-items li{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elementor-widget-eafe-checklist .eafe-icon-list-items:not(.enabled-divider) li {
+    margin-bottom: 15px;
+}
+.eafe-icon-list-items .eafe-icon-list-item a {
+    color: inherit;
+}
+.elementor-widget-eafe-checklist .eafe-icon-list-items li .eafe-icon-list-icon{
+    display: inline-block;
+    
+}
+.elementor-widget-eafe-checklist .eafe-icon-list-items li .eafe-icon-list-text{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #141414;
+}
+
+.elementor-widget-eafe-checklist .eafe-icon-list-items li .eafe-icon-list-icon + .eafe-icon-list-text {
+    padding-left: 13px;
+}
+
+.eafe-icon-list-items .eafe-icon-list-item svg {
+    height: auto;
+    width: 15px;
+}
+
+.eafe-icon-list-items.icon-select {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.eafe-icon-list-items li::after {
+    display: block;
+}
+
+.eafe-icon-list-items.counter-select {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: bil-counter;
+}
+
+.eafe-icon-list-items.counter-select li {
+    display: block;
+    counter-increment: bil-counter;
+}
+
+.eafe-icon-list-items.counter-select li::before {
+    content: counter(bil-counter) ".";
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.eafe-align-center .eafe-icon-list-items {
+    text-align: center;
+}
+
+.eafe-align-center .eafe-icon-list-items li::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eafe-align-right .eafe-icon-list-items {
+    text-align: right;
+}
+
+.eafe-align-right .eafe-icon-list-items li::after {
+    margin-left: auto;
+}

@@ -1,0 +1,522 @@
+# Copyright (C) 2022 WP Travel Engine
+# This file is distributed under the same license as the WP Travel Engine - Addons for Elementor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Engine - Addons for Elementor 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-04 10:08:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elementor Addons for WP Travel Engine\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../wte-elementor-widgets\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/class-widget.php:80
+msgid "Untitled"
+msgstr ""
+
+#: includes/class-widget.php:175 includes/class-widgets.php:462
+#: includes/class-widgets.php:729 includes/class-widgets.php:878
+msgid "<p>Oops! No preview/output available for this widget.</p>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Travel Engine"
+msgstr ""
+
+#: includes/class-widgets.php:72 includes/class-widgets.php:296
+msgid "Grid"
+msgstr ""
+
+#: includes/class-widgets.php:73 includes/class-widgets.php:297
+msgid "List"
+msgstr ""
+
+#: includes/class-widgets.php:78 includes/class-widgets.php:298
+msgid "Slider"
+msgstr ""
+
+#: includes/class-widgets.php:82
+msgid "Navigation"
+msgstr ""
+
+#: includes/class-widgets.php:86
+msgid "Arrows and Dots"
+msgstr ""
+
+#: includes/class-widgets.php:87
+msgid "Arrows"
+msgstr ""
+
+#: includes/class-widgets.php:88
+msgid "Dots"
+msgstr ""
+
+#: includes/class-widgets.php:89
+msgid "None"
+msgstr ""
+
+#: includes/class-widgets.php:94
+msgid "Slides on Desktop"
+msgstr ""
+
+#: includes/class-widgets.php:99
+msgid "Slides on Tablet"
+msgstr ""
+
+#: includes/class-widgets.php:104
+msgid "Slides on Mobile"
+msgstr ""
+
+#: includes/class-widgets.php:109
+msgid "Space Between Slides"
+msgstr ""
+
+#: includes/class-widgets.php:114
+msgid "Autoplay"
+msgstr ""
+
+#: includes/class-widgets.php:120
+msgid "Autoplay Speed"
+msgstr ""
+
+#: includes/class-widgets.php:126
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/class-widgets.php:132
+msgid "Loop"
+msgstr ""
+
+#: includes/class-widgets.php:138
+msgid "Transition"
+msgstr ""
+
+#: includes/class-widgets.php:141
+msgid "Slide"
+msgstr ""
+
+#: includes/class-widgets.php:142
+msgid "Fade"
+msgstr ""
+
+#: includes/class-widgets.php:143
+msgid "Cube"
+msgstr ""
+
+#: includes/class-widgets.php:144
+msgid "Coverflow"
+msgstr ""
+
+#: includes/class-widgets.php:145
+msgid "Flip"
+msgstr ""
+
+#: includes/class-widgets.php:151
+msgid "Transition Speed (ms)"
+msgstr ""
+
+#: includes/class-widgets.php:160
+msgid "Trips -  WP Travel Engine"
+msgstr ""
+
+#: includes/class-widgets.php:168
+msgid "Trip Section Settings"
+msgstr ""
+
+#: includes/class-widgets.php:171
+msgid "Show Section Heading"
+msgstr ""
+
+#: includes/class-widgets.php:176
+msgid "Section Heading Level"
+msgstr ""
+
+#: includes/class-widgets.php:190 includes/class-widgets.php:493
+msgid "Section Heading"
+msgstr ""
+
+#: includes/class-widgets.php:192 includes/class-widgets.php:495
+msgid "Write section title"
+msgstr ""
+
+#: includes/class-widgets.php:195 includes/class-widgets.php:499
+msgid "Show Section Description"
+msgstr ""
+
+#: includes/class-widgets.php:200 includes/class-widgets.php:504
+msgid "Section Description"
+msgstr ""
+
+#: includes/class-widgets.php:202 includes/class-widgets.php:506
+msgid "Write section description"
+msgstr ""
+
+#: includes/class-widgets.php:208
+msgid "Trip Display Settings"
+msgstr ""
+
+#: includes/class-widgets.php:211
+msgid "Trip Description"
+msgstr ""
+
+#: includes/class-widgets.php:216
+msgid "Max number of words in description"
+msgstr ""
+
+#: includes/class-widgets.php:223
+msgid "Featured Image"
+msgstr ""
+
+#: includes/class-widgets.php:228
+msgid "Featured Ribbon"
+msgstr ""
+
+#: includes/class-widgets.php:233
+msgid "Title"
+msgstr ""
+
+#: includes/class-widgets.php:238
+msgid "Price"
+msgstr ""
+
+#: includes/class-widgets.php:243
+msgid "Show striked price on sale"
+msgstr ""
+
+#: includes/class-widgets.php:248
+msgid "Duration"
+msgstr ""
+
+#: includes/class-widgets.php:253
+msgid "Location"
+msgstr ""
+
+#: includes/class-widgets.php:258
+msgid "Reviews"
+msgstr ""
+
+#: includes/class-widgets.php:262
+msgid "Discount"
+msgstr ""
+
+#: includes/class-widgets.php:267
+msgid "Group Size"
+msgstr ""
+
+#: includes/class-widgets.php:271
+msgid "Trip Activities"
+msgstr ""
+
+#: includes/class-widgets.php:275
+msgid "Trip Type"
+msgstr ""
+
+#: includes/class-widgets.php:279
+msgid "Trip Available Times"
+msgstr ""
+
+#: includes/class-widgets.php:283
+msgid "View details button"
+msgstr ""
+
+#: includes/class-widgets.php:290
+msgid "Block Layouts Settings"
+msgstr ""
+
+#: includes/class-widgets.php:293
+msgid "Card View"
+msgstr ""
+
+#: includes/class-widgets.php:303
+msgid "Widget Layouts"
+msgstr ""
+
+#: includes/class-widgets.php:306 includes/class-widgets.php:520
+msgid "Layout 1"
+msgstr ""
+
+#: includes/class-widgets.php:307 includes/class-widgets.php:521
+msgid "Layout 2"
+msgstr ""
+
+#: includes/class-widgets.php:308 includes/class-widgets.php:522
+msgid "Layout 3"
+msgstr ""
+
+#: includes/class-widgets.php:309
+msgid "Layout 4"
+msgstr ""
+
+#: includes/class-widgets.php:317 includes/class-widgets.php:529
+msgid "Sorting and Filtering"
+msgstr ""
+
+#: includes/class-widgets.php:321
+msgid "Show Trips By"
+msgstr ""
+
+#: includes/class-widgets.php:324
+msgid "Featured"
+msgstr ""
+
+#: includes/class-widgets.php:325
+msgid "Latest"
+msgstr ""
+
+#: includes/class-widgets.php:326
+msgid "onsale"
+msgstr ""
+
+#: includes/class-widgets.php:327 includes/class-widgets.php:537
+msgid "Choose from the list"
+msgstr ""
+
+#: includes/class-widgets.php:332
+msgid "Number of Trips"
+msgstr ""
+
+#: includes/class-widgets.php:341
+msgid "Select Trips"
+msgstr ""
+
+#: includes/class-widgets.php:352 includes/class-widgets.php:561
+msgid "Columns"
+msgstr ""
+
+#: includes/class-widgets.php:359 includes/class-widgets.php:611
+msgid "Additional Settings"
+msgstr ""
+
+#: includes/class-widgets.php:363 includes/class-widgets.php:615
+msgid "Show view all button"
+msgstr ""
+
+#: includes/class-widgets.php:366 includes/class-widgets.php:618
+msgid "View All"
+msgstr ""
+
+#: includes/class-widgets.php:368 includes/class-widgets.php:369
+#: includes/class-widgets.php:621
+msgid "Button label"
+msgstr ""
+
+#: includes/class-widgets.php:374 includes/class-widgets.php:626
+msgid "Link"
+msgstr ""
+
+#: includes/class-widgets.php:375 includes/class-widgets.php:627
+msgid "Optional. You can add your own URL."
+msgstr ""
+
+#: includes/class-widgets.php:382
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/class-widgets.php:471
+msgid "Widget Settings"
+msgstr ""
+
+#: includes/class-widgets.php:474
+msgid "Show Section Title"
+msgstr ""
+
+#: includes/class-widgets.php:479
+msgid "Section title level"
+msgstr ""
+
+#: includes/class-widgets.php:513
+msgid "Card Layouts"
+msgstr ""
+
+#: includes/class-widgets.php:516
+msgid "Choose card layout"
+msgstr ""
+
+#: includes/class-widgets.php:533
+msgid "Show Terms By"
+msgstr ""
+
+#: includes/class-widgets.php:536
+msgid "Default"
+msgstr ""
+
+#: includes/class-widgets.php:542
+msgid "Number of items"
+msgstr ""
+
+#: includes/class-widgets.php:551
+msgid "Choose terms"
+msgstr ""
+
+#: includes/class-widgets.php:570
+msgid "Card Display Settings"
+msgstr ""
+
+#: includes/class-widgets.php:577
+msgid "Show Trip Counts"
+msgstr ""
+
+#: includes/class-widgets.php:582
+msgid "Trips Count Label"
+msgstr ""
+
+#: includes/class-widgets.php:585
+msgid "Trips"
+msgstr ""
+
+#: includes/class-widgets.php:588
+msgid "Show Name"
+msgstr ""
+
+#: includes/class-widgets.php:593
+msgid "Show view more button on hover"
+msgstr ""
+
+#: includes/class-widgets.php:599
+msgid "View more label"
+msgstr ""
+
+#: includes/class-widgets.php:601
+msgid "View More"
+msgstr ""
+
+#: includes/class-widgets.php:636
+msgid "Destinations - WP Travel Engine"
+msgstr ""
+
+#: includes/class-widgets.php:639
+msgid "Destinations"
+msgstr ""
+
+#: includes/class-widgets.php:642
+msgid "Activities - WP Travel Engine"
+msgstr ""
+
+#: includes/class-widgets.php:645
+msgid "Activities"
+msgstr ""
+
+#: includes/class-widgets.php:648
+msgid "Trip Types - WP Travel Engine"
+msgstr ""
+
+#: includes/class-widgets.php:651
+msgid "Trip Types"
+msgstr ""
+
+#: includes/class-widgets.php:748
+msgid "Search Form Display Settings"
+msgstr ""
+
+#: includes/class-widgets.php:755
+msgid "Search Button Label"
+msgstr ""
+
+#: includes/class-widgets.php:757
+msgid "Search"
+msgstr ""
+
+#: includes/class-widgets.php:778
+msgid "Filter Label"
+msgstr ""
+
+#: includes/class-widgets.php:784
+msgid "Display Order"
+msgstr ""
+
+#: includes/class-widgets.php:796
+msgid "Trip Search - WP Travel Engine"
+msgstr ""
+
+#: includes/class-widgets.php:804
+msgid "Trip Search Section Settings"
+msgstr ""
+
+#: includes/class-widgets.php:807
+msgid "Show Widget Title"
+msgstr ""
+
+#: includes/class-widgets.php:812
+msgid "Section Widget Title level"
+msgstr ""
+
+#: includes/class-widgets.php:827
+msgid "Section Title"
+msgstr ""
+
+#: includes/class-widgets.php:832
+msgid "Show Widget Subtitle"
+msgstr ""
+
+#: includes/class-widgets.php:837
+msgid "Section Subtitle"
+msgstr ""
+
+#: includes/class-widgets.php:842
+msgid "Search Form Orientation"
+msgstr ""
+
+#: includes/class-widgets.php:845
+msgid "Horizontal (Default)"
+msgstr ""
+
+#: includes/class-widgets.php:846
+msgid "Vertical"
+msgstr ""
+
+#: wte-elementor-widgets.php:67
+#. translators: 1. WTE Extension Name 2. Link to WTE Plugin.
+msgid ""
+"%1$s requires the %2$s plugin to work. Please install and activate the "
+"latest <strong>WP Travel Engine</strong> plugin first."
+msgstr ""
+
+#: wte-elementor-widgets.php:84
+#. translators: 1. WTE Extension Name 2. Link to WTE Plugin.
+msgid ""
+"%1$s requires the %2$s plugin to work. Please install and activate the "
+"latest <strong>Elementor</strong> plugin first."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Travel Engine - Addons for Elementor"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/wte-elementor-widgets"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The elementor widgets for WP Travel Engine. With this add-on, you can now "
+"use the WP Travel Engine Elementor widgets for displaying different trip "
+"packages on your website."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wptravelengine.com"
+msgstr ""
+
+#: includes/class-widgets.php:665
+msgctxt "Taxonomy name"
+msgid "Show %s by"
+msgstr ""
+
+#: includes/class-widgets.php:666
+msgctxt "Taxonomy name"
+msgid "Choose %s"
+msgstr ""
+
+#: includes/class-widgets.php:772
+msgctxt "Filter Name"
+msgid "Show %s"
+msgstr ""
