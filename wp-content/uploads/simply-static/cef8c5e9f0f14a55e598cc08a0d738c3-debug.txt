@@ -1,0 +1,695 @@
+[2024-08-15 10:19:41] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-08-15 10:19:41] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-08-15 10:19:41] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-08-15 10:19:45] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-08-15 10:19:45] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-08-15 10:19:45] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-08-15 10:19:45] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181\
+[2024-08-15 10:19:45] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/project/
+[2024-08-15 10:19:46] [class-ss-setup-task.php:137] File C:\xampp\htdocs\project\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/project/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/dialog/dialog.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.min.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/eicons/eicons.json
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.css
+[2024-08-15 10:19:46] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.min.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.svg
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.ttf
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/FontAwesome.otf
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/js/brands.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/js/regular.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/js/solid.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/json/brands.json
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/json/regular.json
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/json/solid.json
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/migration/mapping.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.ttf
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/hover/hover.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/hover/hover.min.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/imagesloaded/imagesloaded.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/imagesloaded/imagesloaded.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/inline-editor/js/inline-editor.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/inline-editor/js/inline-editor.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/jquery-easing/jquery-easing.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/jquery-easing/jquery-easing.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/jquery-hover-intent/jquery-hover-intent.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/jquery-hover-intent/jquery-hover-intent.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/nouislider/nouislider.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/nouislider/nouislider.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/nprogress/nprogress.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/nprogress/nprogress.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/perfect-scrollbar/js/perfect-scrollbar.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/pickr/pickr.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/pickr/themes/monolith.min.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/share-link/share-link.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/swiper/swiper.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/tipsy/tipsy.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/tipsy/tipsy.min.js
+[2024-08-15 10:19:47] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/waypoints/waypoints-for-editor.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/0e842fae60df2bcb2a30.bundle.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/152486453d0e39071cdb.bundle.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/2f08057553c95b827d30.bundle.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/343f4c6fd2ee68785472.bundle.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/46e544e5863270fc32f2.bundle.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/4748df03726015eef04f.bundle.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/5975ee58d21883e10a11.bundle.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/5975ee58d21883e10a11.bundle.min.js.LICENSE.txt
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/7dc832afac0230c2012d.bundle.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/9c42cff515a6191fddaf.bundle.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/a730ee9caa710006b307.bundle.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/accordion.8799675460c73eb48972.bundle.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/accordion.c16b88b2e8a0c50189bc.bundle.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin-feedback.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin-feedback.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin-modules.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin-modules.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin-modules.min.js.LICENSE.txt
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin-notifications.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin-notifications.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin-top-bar.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin-top-bar.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/admin.min.js.LICENSE.txt
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-admin.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-admin.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-admin.min.js.LICENSE.txt
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-gutenberg.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-gutenberg.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-gutenberg.min.js.LICENSE.txt
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-layout.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-layout.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-layout.min.js.LICENSE.txt
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-media-library.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-media-library.min.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai-media-library.min.js.LICENSE.txt
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai.js
+[2024-08-15 10:19:48] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/ai.min.js.LICENSE.txt
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/alert.c3c6a3fdf4745bd26b7f.bundle.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/alert.cbc2a0fee74ee3ed0419.bundle.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/announcements-app.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/announcements-app.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/announcements-app.min.js.LICENSE.txt
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/app-loader.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/app-loader.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/app-packages.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/app-packages.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/app-packages.min.js.LICENSE.txt
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/app.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/app.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/app.min.js.LICENSE.txt
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/b7931adecb98651a09c7.bundle.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/beta-tester.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/beta-tester.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/common-modules.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/common-modules.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/common.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/common.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/common.min.js.LICENSE.txt
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/container-converter.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/container-converter.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/container.a7f0a15dfa05df34e1f7.bundle.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/container.c65a2a923085e1120e75.bundle.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/counter.02cef29c589e742d4c8c.bundle.min.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/counter.3f74a246dff765f39aea.bundle.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/dev-tools.js
+[2024-08-15 10:19:49] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/dev-tools.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/e-home-screen.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/e-home-screen.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/e-home-screen.min.js.LICENSE.txt
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/e3f753621bf9be55ec4d.bundle.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/e8a7573e654d921656ab.bundle.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-document.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-document.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-environment-v2.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-environment-v2.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-loader-v1.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-loader-v1.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-loader-v2.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-loader-v2.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-modules.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-modules.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-modules.min.js.LICENSE.txt
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-notifications.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor-notifications.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/editor.min.js.LICENSE.txt
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/element-manager-admin.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/element-manager-admin.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/element-manager-admin.min.js.LICENSE.txt
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/elementor-admin-bar.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/f45f06ab7bc79ea02cfc.bundle.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/f634673e5824ceb13f3d.bundle.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/fa0cbd4c7b6a8ad83224.bundle.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/fd6a00ae23a1bc2c6190.bundle.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/frontend-modules.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/frontend-modules.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/frontend.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/frontend.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/gutenberg.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/gutenberg.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/image-carousel.4455c6362492d9067512.bundle.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/image-carousel.9399f19d95d7300cbc2e.bundle.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/import-export-admin.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/import-export-admin.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/kit-elements-defaults-editor.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/kit-elements-defaults-editor.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/kit-elements-defaults-editor.min.js.LICENSE.txt
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/kit-library.1f8d31888dc9d19dd031.bundle.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/kit-library.ac1a4cd5deae5526ce49.bundle.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/lightbox.26bf6b6c4232d8789c0e.bundle.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/lightbox.62507767544e8d455e1b.bundle.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/media-hints.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/media-hints.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/nested-accordion.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/nested-accordion.min.js
+[2024-08-15 10:19:50] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/nested-accordion.min.js.LICENSE.txt
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/nested-elements.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/nested-elements.min.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/nested-tabs.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/nested-tabs.min.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/nested-tabs.min.js.LICENSE.txt
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/new-template.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/new-template.min.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/notes.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/notes.min.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/onboarding.001cbdc1993cabe048db.bundle.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/onboarding.026ae7e20c953c6cf3c3.bundle.min.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor/editor.asset.php
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor/editor.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor/editor.js.LICENSE.txt
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor/editor.min.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor/editor.strings.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.asset.php
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.js.LICENSE.txt
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.min.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.strings.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.asset.php
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.js.LICENSE.txt
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.min.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.strings.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.asset.php
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.js.LICENSE.txt
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.min.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.strings.js
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.asset.php
+[2024-08-15 10:19:51] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.js.LICENSE.txt
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.min.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.strings.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.asset.php
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.js.LICENSE.txt
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.min.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.strings.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.asset.php
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.js.LICENSE.txt
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.min.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.asset.php
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.js.LICENSE.txt
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.min.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.strings.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/env/env.asset.php
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/env/env.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/env/env.js.LICENSE.txt
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/env/env.min.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/env/env.strings.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/icons/icons.asset.php
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/icons/icons.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/icons/icons.js.LICENSE.txt
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/icons/icons.min.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/icons/icons.strings.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/locations/locations.asset.php
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/locations/locations.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/locations/locations.js.LICENSE.txt
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/locations/locations.min.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/locations/locations.strings.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/query/query.asset.php
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/query/query.js
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/query/query.js.LICENSE.txt
+[2024-08-15 10:19:52] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/query/query.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/query/query.strings.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/store/store.asset.php
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/store/store.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/store/store.js.LICENSE.txt
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/store/store.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/store/store.min.js.LICENSE.txt
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/store/store.strings.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/ui/ui.asset.php
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/ui/ui.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/ui/ui.js.LICENSE.txt
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/ui/ui.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/ui/ui.min.js.LICENSE.txt
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/packages/ui/ui.strings.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/progress.6d15c16f0f5c4792940f.bundle.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/progress.985f012a6336ab21cb44.bundle.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/responsive-bar.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/responsive-bar.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/styleguide-app-initiator.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/styleguide-app-initiator.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/styleguide-app-initiator.min.js.LICENSE.txt
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/styleguide.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/styleguide.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/tabs.520bc2ed4560c561029e.bundle.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/tabs.c2af5be7f9cb3cdcf3d5.bundle.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/text-editor.2f2f7e0ea1e16387a004.bundle.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/text-path.2bc8a9cd0e50cf1a5a9c.bundle.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/text-path.2bc8a9cd0e50cf1a5a9c.bundle.min.js.LICENSE.txt
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/text-path.fa44919c1abfe9244186.bundle.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/toggle.31881477c45ff5cf9d4d.bundle.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/toggle.d79746a764407a0828ee.bundle.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/video.78c625e89ab767d621c5.bundle.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/video.817bd6a65a1542503aac.bundle.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/web-cli.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/web-cli.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/web-cli.min.js.LICENSE.txt
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/webpack.runtime.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/wp-audio.75f0ced143febb8cd31a.bundle.min.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/js/wp-audio.b8efdc046bc9df72a075.bundle.js
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/announcement.png
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/onboarding/Blank_Canvas.svg
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/onboarding/Blank_Preview.jpg
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/onboarding/Illustration_Account.svg
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/onboarding/Illustration_Hello.svg
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/onboarding/Illustration_Setup.svg
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/onboarding/Library.svg
+[2024-08-15 10:19:53] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/site-editor/archive.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/site-editor/error-404.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/site-editor/footer.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/site-editor/header.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/site-editor/product.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/site-editor/products.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/site-editor/search-results.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/site-editor/single-page.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/app/site-editor/single-post.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/blur.png
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/containers-announcement.png
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/contrast.png
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/eyedropper.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/go-pro-wp-dashboard.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/go-pro.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/information.svg
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/library-connect/left-1.png
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/library-connect/left-2.png
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/library-connect/right-1.png
+[2024-08-15 10:19:54] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/library-connect/right-2.png
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/logo-icon.png
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/logo-panel.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/logo-platform.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/no-search-results.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/placeholder.png
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/images/unlock-sticky.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/arrow-negative.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/arrow.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/book-negative.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/book.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/clouds-negative.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/clouds.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/curve-asymmetrical-negative.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/curve-asymmetrical.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/curve-negative.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/curve.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/drops-negative.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/drops.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/mountains.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/opacity-fan.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/opacity-tilt.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/pyramids-negative.svg
+[2024-08-15 10:19:55] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/pyramids.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/split-negative.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/split.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/tilt.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/triangle-asymmetrical-negative.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/triangle-asymmetrical.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/triangle-negative.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/triangle.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/wave-brush.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/waves-negative.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/waves-pattern.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/waves.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/shapes/zigzag.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/mask-shapes/blob.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/mask-shapes/circle.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/mask-shapes/flower.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/mask-shapes/hexagon.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/mask-shapes/sketch.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/mask-shapes/triangle.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/svg-paths/arc.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/svg-paths/circle.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/svg-paths/line.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/svg-paths/oval.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/svg-paths/spiral.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/svg-paths/wave.svg
+[2024-08-15 10:19:56] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/project/wp-content/plugins/elementor/assets/data/responsive-widgets.json
+[2024-08-15 10:19:56] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-08-15 10:19:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-15 10:19:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-15 10:19:56] [class-ss-fetch-urls-task.php:69] Total pages: 420; Pages remaining: 420
+[2024-08-15 10:19:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/
+[2024-08-15 10:19:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 420
+[2024-08-15 10:19:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:19:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd64cb252e-6kQAxL.tmp
+[2024-08-15 10:19:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/?simply_static_page=1
+[2024-08-15 10:19:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/?simply_static_page=1
+[2024-08-15 10:20:27] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-15 10:20:27] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-08-15 10:20:27] [class-ss-url-fetcher.php:107] object(WP_Error)#2490 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-08-15 10:20:27] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/project/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-15 10:20:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 420
+[2024-08-15 10:20:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:27] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-08-15 10:20:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json
+[2024-08-15 10:20:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 420
+[2024-08-15 10:20:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd66b61ee9-RfERvE.tmp
+[2024-08-15 10:20:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json?simply_static_page=3
+[2024-08-15 10:20:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json?simply_static_page=3
+[2024-08-15 10:20:29] [class-ss-url-fetcher.php:103] Filesize: 851 bytes
+[2024-08-15 10:20:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json
+[2024-08-15 10:20:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json
+[2024-08-15 10:20:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd66b61ee9-RfERvE.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json
+[2024-08-15 10:20:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:20:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:20:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:20:29] [class-ss-page.php:118] Checking Content Identical:c2be3106d54785ca1e0cf07759baed3487deaf19===. Value: FALSE
+[2024-08-15 10:20:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate.css
+[2024-08-15 10:20:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 420
+[2024-08-15 10:20:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd66dd459c-svPvmb.tmp
+[2024-08-15 10:20:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate.css?simply_static_page=4
+[2024-08-15 10:20:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate.css?simply_static_page=4
+[2024-08-15 10:20:31] [class-ss-url-fetcher.php:103] Filesize: 13369 bytes
+[2024-08-15 10:20:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 10:20:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/animate.css/animate.css
+[2024-08-15 10:20:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd66dd459c-svPvmb.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/animate.css/animate.css
+[2024-08-15 10:20:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:20:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:20:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:20:32] [class-ss-page.php:118] Checking Content Identical:eb934f5b426f03f62beaff2ebbdd82c6f2759ec4===. Value: FALSE
+[2024-08-15 10:20:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css
+[2024-08-15 10:20:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 420
+[2024-08-15 10:20:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd6708f449-tuFx1l.tmp
+[2024-08-15 10:20:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css?simply_static_page=5
+[2024-08-15 10:20:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css?simply_static_page=5
+[2024-08-15 10:20:35] [class-ss-url-fetcher.php:103] Filesize: 8449 bytes
+[2024-08-15 10:20:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 10:20:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css
+[2024-08-15 10:20:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd6708f449-tuFx1l.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css
+[2024-08-15 10:20:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:20:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:20:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:20:35] [class-ss-page.php:118] Checking Content Identical:96fd188c16f8980195ac1e89dbcb46c6fb924d98===. Value: FALSE
+[2024-08-15 10:20:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+[2024-08-15 10:20:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 420
+[2024-08-15 10:20:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd674002e0-5UmQ1G.tmp
+[2024-08-15 10:20:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?simply_static_page=6
+[2024-08-15 10:20:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?simply_static_page=6
+[2024-08-15 10:20:36] [class-ss-url-fetcher.php:103] Filesize: 18468 bytes
+[2024-08-15 10:20:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 10:20:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+[2024-08-15 10:20:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd674002e0-5UmQ1G.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+[2024-08-15 10:20:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:20:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:20:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:20:37] [class-ss-page.php:118] Checking Content Identical:5103ec2fbb389568ebf5cfe4fd721f3df2ff7aec===. Value: FALSE
+[2024-08-15 10:20:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js
+[2024-08-15 10:20:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 420
+[2024-08-15 10:20:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd6761690c-oJYnRn.tmp
+[2024-08-15 10:20:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js?simply_static_page=7
+[2024-08-15 10:20:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js?simply_static_page=7
+[2024-08-15 10:20:45] [class-ss-url-fetcher.php:103] Filesize: 133156 bytes
+[2024-08-15 10:20:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 10:20:45] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js
+[2024-08-15 10:20:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd6761690c-oJYnRn.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js
+[2024-08-15 10:20:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:20:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:20:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:20:45] [class-ss-page.php:118] Checking Content Identical:a011fe207b172ff24f85e0b855be719e5dba9f81===. Value: FALSE
+[2024-08-15 10:20:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js
+[2024-08-15 10:20:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 420
+[2024-08-15 10:20:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd67ddf0bf-arvShA.tmp
+[2024-08-15 10:20:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?simply_static_page=8
+[2024-08-15 10:20:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?simply_static_page=8
+[2024-08-15 10:20:46] [class-ss-url-fetcher.php:103] Filesize: 45156 bytes
+[2024-08-15 10:20:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 10:20:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js
+[2024-08-15 10:20:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd67ddf0bf-arvShA.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js
+[2024-08-15 10:20:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:20:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:20:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:20:46] [class-ss-page.php:118] Checking Content Identical:1cbee1e971d511cddc67dbc188265439fc774c86===. Value: FALSE
+[2024-08-15 10:20:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js
+[2024-08-15 10:20:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 420
+[2024-08-15 10:20:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd67f3016d-QCikrg.tmp
+[2024-08-15 10:20:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js?simply_static_page=9
+[2024-08-15 10:20:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js?simply_static_page=9
+[2024-08-15 10:20:54] [class-ss-url-fetcher.php:103] Filesize: 10363 bytes
+[2024-08-15 10:20:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 10:20:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js
+[2024-08-15 10:20:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd67f3016d-QCikrg.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js
+[2024-08-15 10:20:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:20:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:20:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:20:55] [class-ss-page.php:118] Checking Content Identical:42bc66f9e83ba987eb528be0c2bd3e6914605e36===. Value: FALSE
+[2024-08-15 10:20:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js
+[2024-08-15 10:20:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 420
+[2024-08-15 10:20:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd687880b9-Czsl4S.tmp
+[2024-08-15 10:20:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?simply_static_page=10
+[2024-08-15 10:20:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?simply_static_page=10
+[2024-08-15 10:20:56] [class-ss-url-fetcher.php:103] Filesize: 3753 bytes
+[2024-08-15 10:20:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 10:20:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js
+[2024-08-15 10:20:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd687880b9-Czsl4S.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js
+[2024-08-15 10:20:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:20:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:20:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:20:57] [class-ss-page.php:118] Checking Content Identical:9d72caa3fc433eb72c1cbc0f3be7873adb8f53a6===. Value: FALSE
+[2024-08-15 10:20:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js
+[2024-08-15 10:20:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 420
+[2024-08-15 10:20:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:20:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd689c674c-CgqqQ8.tmp
+[2024-08-15 10:20:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js?simply_static_page=11
+[2024-08-15 10:20:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js?simply_static_page=11
+[2024-08-15 10:21:08] [class-ss-url-fetcher.php:103] Filesize: 6666 bytes
+[2024-08-15 10:21:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 10:21:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js
+[2024-08-15 10:21:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd689c674c-CgqqQ8.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js
+[2024-08-15 10:21:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:21:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:21:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:21:09] [class-ss-page.php:118] Checking Content Identical:c0b139109997cdc97353beaabb512283a5f481e0===. Value: FALSE
+[2024-08-15 10:21:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/dialog/dialog.js
+[2024-08-15 10:21:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 420
+[2024-08-15 10:21:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:21:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd69551268-ZRdsk5.tmp
+[2024-08-15 10:21:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/dialog/dialog.js?simply_static_page=12
+[2024-08-15 10:21:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/dialog/dialog.js?simply_static_page=12
+[2024-08-15 10:21:10] [class-ss-url-fetcher.php:103] Filesize: 20975 bytes
+[2024-08-15 10:21:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 10:21:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/dialog/dialog.js
+[2024-08-15 10:21:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd69551268-ZRdsk5.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/dialog/dialog.js
+[2024-08-15 10:21:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:21:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:21:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:21:11] [class-ss-page.php:118] Checking Content Identical:b59ea5f374d79a71f1fe71d9e8b4d0674cfe840c===. Value: FALSE
+[2024-08-15 10:21:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+[2024-08-15 10:21:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 420
+[2024-08-15 10:21:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:21:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd69742a01-FeaxPd.tmp
+[2024-08-15 10:21:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?simply_static_page=13
+[2024-08-15 10:21:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?simply_static_page=13
+[2024-08-15 10:21:13] [class-ss-url-fetcher.php:103] Filesize: 10777 bytes
+[2024-08-15 10:21:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 10:21:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+[2024-08-15 10:21:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd69742a01-FeaxPd.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+[2024-08-15 10:21:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:21:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:21:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:21:13] [class-ss-page.php:118] Checking Content Identical:60f061357746f09ab60d595ba37584a5f60d991c===. Value: FALSE
+[2024-08-15 10:21:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css
+[2024-08-15 10:21:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 420
+[2024-08-15 10:21:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:21:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd699ee667-joxrLy.tmp
+[2024-08-15 10:21:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css?simply_static_page=14
+[2024-08-15 10:21:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css?simply_static_page=14
+[2024-08-15 10:21:24] [class-ss-url-fetcher.php:103] Filesize: 3762 bytes
+[2024-08-15 10:21:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 10:21:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css
+[2024-08-15 10:21:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd699ee667-joxrLy.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css
+[2024-08-15 10:21:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:21:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:21:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:21:25] [class-ss-page.php:118] Checking Content Identical:00e5beb9c5312fee3eb3344a5dc3ddaa29d9759d===. Value: FALSE
+[2024-08-15 10:21:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css
+[2024-08-15 10:21:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 420
+[2024-08-15 10:21:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:21:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd6a5445fc-Yvw9fc.tmp
+[2024-08-15 10:21:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?simply_static_page=15
+[2024-08-15 10:21:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?simply_static_page=15
+[2024-08-15 10:21:27] [class-ss-url-fetcher.php:103] Filesize: 3303 bytes
+[2024-08-15 10:21:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 10:21:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css
+[2024-08-15 10:21:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd6a5445fc-Yvw9fc.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css
+[2024-08-15 10:21:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:21:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:21:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:21:28] [class-ss-page.php:118] Checking Content Identical:51627109dea8c9f26708227de2ea6c0dd1f0417f===. Value: FALSE
+[2024-08-15 10:21:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js
+[2024-08-15 10:21:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 420
+[2024-08-15 10:21:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:21:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd6a8d8f34-hc3oPo.tmp
+[2024-08-15 10:21:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js?simply_static_page=16
+[2024-08-15 10:21:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js?simply_static_page=16
+[2024-08-15 10:21:31] [class-ss-url-fetcher.php:103] Filesize: 49904 bytes
+[2024-08-15 10:21:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 10:21:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js
+[2024-08-15 10:21:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd6a8d8f34-hc3oPo.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js
+[2024-08-15 10:21:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:21:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:21:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:21:32] [class-ss-page.php:118] Checking Content Identical:3df3a7642cbe13bdbae85cc6c140cc075e77244a===. Value: FALSE
+[2024-08-15 10:21:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js
+[2024-08-15 10:21:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 420
+[2024-08-15 10:21:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:21:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd6ac18b7c-oOuTlZ.tmp
+[2024-08-15 10:21:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?simply_static_page=17
+[2024-08-15 10:21:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?simply_static_page=17
+[2024-08-15 10:21:37] [class-ss-url-fetcher.php:103] Filesize: 15347 bytes
+[2024-08-15 10:21:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 10:21:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js
+[2024-08-15 10:21:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd6ac18b7c-oOuTlZ.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js
+[2024-08-15 10:21:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:21:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:21:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:21:38] [class-ss-page.php:118] Checking Content Identical:31cd1d49c8c1a67f149483b2f2800b2344e6a9a7===. Value: FALSE
+[2024-08-15 10:21:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css
+[2024-08-15 10:21:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 420
+[2024-08-15 10:21:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:21:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd6b270cb1-6NlPxg.tmp
+[2024-08-15 10:21:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css?simply_static_page=18
+[2024-08-15 10:21:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css?simply_static_page=18
+[2024-08-15 10:21:40] [class-ss-url-fetcher.php:103] Filesize: 17494 bytes
+[2024-08-15 10:21:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 10:21:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css
+[2024-08-15 10:21:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd6b270cb1-6NlPxg.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css
+[2024-08-15 10:21:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:21:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 10:21:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 10:21:41] [class-ss-page.php:118] Checking Content Identical:d7948e05458575a156bd0b11e2871575c9f9dcef===. Value: FALSE
+[2024-08-15 10:21:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css
+[2024-08-15 10:21:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 420
+[2024-08-15 10:21:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 10:21:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hp\AppData\Local\Temp/66bdd6b5ad001-HwQvbQ.tmp
+[2024-08-15 10:21:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css?simply_static_page=19
+[2024-08-15 10:21:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/project/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css?simply_static_page=19
+[2024-08-15 10:21:42] [class-ss-url-fetcher.php:103] Filesize: 14773 bytes
+[2024-08-15 10:21:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 10:21:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css
+[2024-08-15 10:21:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hp\AppData\Local\Temp/66bdd6b5ad001-HwQvbQ.tmp to C:\xampp\htdocs\project/wp-content/uploads\simply-static\temp-files/simply-static-1-1723717181/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css
+[2024-08-15 10:21:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 10:21:43] [class-ss-archive-creation-job.php:221] Cancelling job; job is not done
+[2024-08-15 10:21:43] [class-ss-archive-creation-job.php:232] The queue isn't empty; overwriting current task with a cancel task
+[2024-08-15 10:21:48] [class-ss-archive-creation-job.php:384] Error: (1) Maximum execution time of 120 seconds exceeded in <b>C:\xampp\htdocs\project\wp-content\plugins\simply-static\src\class-ss-url-extractor.php</b> on line <b>142</b>
+[2024-08-15 10:21:48] [class-ss-archive-creation-job.php:324] Status message: [error] Error: (1) Maximum execution time of 120 seconds exceeded in <b>C:\xampp\htdocs\project\wp-content\plugins\simply-static\src\class-ss-url-extractor.php</b> on line <b>142</b>
+[2024-08-15 10:22:02] [class-ss-archive-creation-job.php:221] Cancelling job; job is not done
+[2024-08-15 10:22:02] [class-ss-archive-creation-job.php:232] The queue isn't empty; overwriting current task with a cancel task
+[2024-08-15 10:22:02] [class-ss-archive-creation-job.php:136] Current task: cancel
+[2024-08-15 10:22:02] [class-ss-archive-creation-job.php:153] Performing task: cancel
+[2024-08-15 10:22:02] [class-ss-task.php:44] Status message: [cancel] Cancelling job
+[2024-08-15 10:22:02] [class-ss-archive-creation-job.php:384] Error: (1) Maximum execution time of 120 seconds exceeded in <b>C:\xampp\htdocs\project\wp-content\plugins\elementor\includes\managers\controls.php</b> on line <b>878</b>
+[2024-08-15 10:22:02] [class-ss-archive-creation-job.php:324] Status message: [error] Error: (1) Maximum execution time of 120 seconds exceeded in <b>C:\xampp\htdocs\project\wp-content\plugins\elementor\includes\managers\controls.php</b> on line <b>878</b>
+[2024-08-15 10:22:02] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-08-15 10:22:02] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-08-15 10:22:02] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-08-15 10:22:02] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-08-15 10:22:02] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:02:21
